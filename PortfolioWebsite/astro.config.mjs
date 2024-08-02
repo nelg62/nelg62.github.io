@@ -2,5 +2,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  root:'/PortfolioWebsite/src'
+  site: 'https://nelg62.github.io/',
+  base: '/PortfolioWebsite/src',
 });
