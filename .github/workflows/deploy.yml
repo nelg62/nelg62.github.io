@@ -1,13 +1,10 @@
 name: Deploy to GitHub Pages
 
 on:
-  # Trigger the workflow every time you push to the `master` branch
   push:
     branches: [master]
-  # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
 
-# Allow this job to clone the repo and create a page deployment
 permissions:
   contents: read
   pages: write
@@ -19,10 +16,31 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
-      - name: Install, build, and upload your site
-        uses: withastro/action@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
         with:
-          package-manager: npm # Specify your package manager (npm, yarn, pnpm)
+          node-version: "20"
+
+      - name: Install dependencies
+        run: |
+          npm install
+        # If you're using yarn or pnpm, use the corresponding command:
+        # yarn install
+        # pnpm install
+
+      - name: Build the site
+        run: |
+          npm run build
+        # If you're using yarn or pnpm, use the corresponding command:
+        # yarn build
+        # pnpm build
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: build
+          path: dist # Make sure 'dist' is the correct build output directory
 
   deploy:
     needs: build
@@ -31,6 +49,12 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Download build artifacts
+        uses: actions/download-artifact@v2
+        with:
+          name: build
+          path: dist
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
