@@ -55,23 +55,29 @@ export const PROJECTS = [
   {
     TITLE: "Mini Project 3",
     DESCRIPTION: "Group Project with Amitabh Das",
-    img: "",
+    img: "MiniProject3mainpage.png",
     website: "",
     repository: "https://github.com/nelg62/MiniProject3",
   },
   {
     TITLE: "Mini Project 2",
     DESCRIPTION: "",
-    img: "",
-    website: "",
+    img: "MiniProject2picture.png",
+    website:
+      "https://66b42a2f65f0a100084b9e3a--miniproject2glenharding.netlify.app/userstable",
     repository: "https://github.com/nelg62/MiniProject2",
+    frountend: "Netlify",
+    backend: "Render",
   },
   {
     TITLE: "Mini Project 1",
     DESCRIPTION: "",
-    img: "",
-    website: "",
-    repository: "https://github.com/nelg62/Module-4/tree/master/MiniProject1",
+    img: "MiniProject1mainpage.png",
+    website:
+      "https://66b3ecc9cf2c55362d4faea2--endearing-gnome-6ad42e.netlify.app/",
+    repository:
+      "https://github.com/nelg62/Remake-Miniproject1-with-react/tree/master",
+    frountend: "Netlify",
   },
 ];
 
