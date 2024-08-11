@@ -48,14 +48,14 @@ export const PROJECTS = [
   {
     TITLE: "Capstone Project",
     DESCRIPTION: "",
-    img: "",
+    img: "/WebsiteHosting.gif",
     website: "",
     repository: "https://github.com/nelg62/CapstoneProject",
   },
   {
     TITLE: "Mini Project 3",
     DESCRIPTION: "Group Project with Amitabh Das",
-    img: "/MiniProject3mainpage.png",
+    img: "/WebsiteHosting.gif",
     website: "",
     repository: "https://github.com/nelg62/MiniProject3",
   },
