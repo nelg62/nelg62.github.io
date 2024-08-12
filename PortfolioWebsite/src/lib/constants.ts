@@ -54,8 +54,8 @@ export const PROJECTS = [
   {
     TITLE: "Mini Project 3",
     DESCRIPTION: "Group Project with Amitabh Das",
-    img: "/WebsiteHosting.gif",
-    website: "",
+    img: "/MiniProject3mainpage.png",
+    website: "https://master--miniproject3glenharding.netlify.app/",
     repository: "https://github.com/nelg62/MiniProject3",
   },
   {
