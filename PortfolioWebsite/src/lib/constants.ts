@@ -47,8 +47,8 @@ export const PROJECTS = [
   {
     TITLE: "Capstone Project",
     DESCRIPTION: "",
-    img: "/WebsiteHosting.gif",
-    website: "",
+    img: "/Capstonprojectproductpage.png",
+    website: "https://capstopeprojectglenharding.netlify.app",
     repository: "https://github.com/nelg62/CapstoneProject",
   },
   {
