@@ -45,6 +45,13 @@ export const BLOG: Page = {
 // Projects Page
 export const PROJECTS = [
   {
+    TITLE: "Character Card Creator",
+    DESCRIPTION: "Recreacting Miniproject 1",
+    img: "/CharacterCardCreatorApp.png",
+    website: "https://charactercardbuilderglenharding.netlify.app/",
+    repository: "https://github.com/nelg62/CharacterFormwithtypescriptandreact",
+  },
+  {
     TITLE: "Capstone Project",
     DESCRIPTION: "",
     img: "/Capstonprojectproductpage.png",
