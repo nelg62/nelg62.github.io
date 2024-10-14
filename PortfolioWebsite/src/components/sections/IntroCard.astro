@@ -10,24 +10,30 @@ import { Github, Linkedin, Mail } from "lucide-react";
     <div class="flex flex-col justify-between gap-4 md:max-h-[300px]">
       <div class="flex h-full flex-col">
         <h6 class="m-0 text-sm font-light text-gray-500">Welcome</h6>
-        <p>Hi, I'm <b class="font-bold">{ME.fullName}</b></p>
+        <p>
+          Hi, I'm
+          <b class="font-bold">{ME.fullName}</b>
+        </p>
       </div>
       <div>
-        <a href={LINKS.github} aria-label="GitHub profile" target="_blank"
-          ><Button aria-label="GitHub profile"
-            ><Github /><span class="sr-only">GitHub Profile</span></Button
-          ></a
-        >
-        <a href={LINKS.linkedin} aria-label="linkedin profile" target="_blank"
-          ><Button aria-label="linkedin profile"
-            ><Linkedin /> <span class="sr-only">Linkedin Profile</span></Button
-          ></a
-        >
-        <a href={LINKS.mail} aria-label="Mail profile" target="_blank"
-          ><Button aria-label="Mail profile">
-            <Mail /><span class="sr-only">Email contact</span></Button
-          ></a
-        >
+        <a href={LINKS.github} aria-label="GitHub profile" target="_blank">
+          <Button aria-label="GitHub profile">
+            <Github />
+            <span class="sr-only">GitHub Profile</span>
+          </Button>
+        </a>
+        <a href={LINKS.linkedin} aria-label="linkedin profile" target="_blank">
+          <Button aria-label="linkedin profile">
+            <Linkedin />
+            <span class="sr-only">Linkedin Profile</span>
+          </Button>
+        </a>
+        <a href={LINKS.mail} aria-label="Mail profile" target="_blank">
+          <Button aria-label="Mail profile">
+            <Mail />
+            <span class="sr-only">Email contact</span>
+          </Button>
+        </a>
       </div>
     </div>
     <img

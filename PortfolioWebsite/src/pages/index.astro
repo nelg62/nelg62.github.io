@@ -1,10 +1,12 @@
 ---
 import AboutMe from "../components/sections/AboutMe.astro";
+import CVCard from "../components/sections/CVCard.astro";
 import IntroCard from "../components/sections/IntroCard.astro";
+import Now from "../components/sections/Now.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<script>
+<!-- <script>
   import { stagger, spring, timeline, type TimelineDefinition } from "motion";
   import { loaderAnimation } from "../lib/constants";
 
@@ -25,8 +27,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   ];
 
   timeline(sequence as TimelineDefinition);
-</script>
-
+</script> -->
 <BaseLayout title="Glen Harding" description="">
   <div
     slot="loader"
@@ -38,5 +39,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   >
     <IntroCard />
     <AboutMe />
+    <CVCard />
+    <Now />
   </main>
 </BaseLayout>
