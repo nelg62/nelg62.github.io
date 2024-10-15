@@ -3,7 +3,10 @@ import Card from "../components/Card.astro";
 import { LINKS, ME } from "../lib/constants";
 ---
 
-<Card colSpan="md:col-span-3 " rowSpan="md:row-span-4 lg:row-span-1">
+<Card
+  colSpan="md:col-span-3 lg:col-span-4"
+  rowSpan="md:row-span-4 lg:row-span-1"
+>
   <div class="h-full">
     <header class="flex items-center">
       <h1 class="text-xl font-bold text-foreground">

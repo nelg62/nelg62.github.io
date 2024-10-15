@@ -129,3 +129,66 @@ export const EXPERIENCE = [
     ],
   },
 ];
+
+export const STUDIES = [
+  {
+    title:
+      "Software Bootcamp – Professional Certificate in Software Engineering",
+    institution: "AUT/Institute of Data",
+    link: "https://www.institutedata.com/nz/courses/software-engineering-programme/",
+    date: "2023 - 2024",
+    info: [
+      "Software Development Principles",
+      "API Development and Integration",
+      "Javascript Programming",
+      "Front End Development",
+      "Back End and Full Stack Development",
+      "Interactive Web Design",
+      "Web Design with React II",
+    ],
+    miniProjects: {
+      miniProject1:
+        "https://github.com/nelg62/Module-4/tree/master/MiniProject1",
+      miniProject2: "https://github.com/nelg62/MiniProject2",
+      miniProject3: "https://github.com/nelg62/MiniProject3",
+    },
+    capstoneProject: "https://github.com/nelg62/CapstoneProject",
+  },
+  {
+    title: "Level 7 Diploma in Cloud Management in Information Technology",
+    institution: "Techtorium NZ Institute of Info Tech",
+    link: "https://techtorium.ac.nz/it-courses/diploma-in-cloud-management/",
+    date: "2017 - 2017",
+    info: [
+      "Install, upgrade, migrate, configure & troubleshoot Windows Client OS",
+      "Configure & install DNS, WINS, DHCP, network infrastructure & servers",
+      "Configure Active Directory in Windows Server Identify, protect, authenticate & asses network security & basic Cryptography",
+      "Use MDT & SCCM for Deployment",
+    ],
+  },
+  {
+    title:
+      "Level 6 Diploma in Networking and Security in Information Technology",
+    institution: "Techtorium NZ Institute of Info Tech",
+    link: "https://techtorium.ac.nz/it-courses/new-zealand-diploma-in-it-infrastructure/",
+    date: "2016 - 2016",
+    info: [
+      "WDS, MDT Deployment",
+      "Installing and Configuring Windows Server 2012",
+      "Administering Windows Server 2012",
+      "Configuring Advanced Windows Server 2012 Services",
+    ],
+  },
+  {
+    title: "Level 5 Diploma in PC Support in Information Technology",
+    institution: "Techtorium NZ Institute of Info Tech",
+    link: "https://techtorium.ac.nz/new-zealand-diploma-in-information-technology-technical-support/",
+    date: "2015 - 2015",
+    info: [
+      "PC Hardware & Software Installation, Repair & Support",
+      "Networking Concepts and Server Administration",
+      "Internet & Networking Security, WAN & LAN Security",
+      "Windows Applications, Operating Systems, and Web-Creation",
+    ],
+  },
+];
