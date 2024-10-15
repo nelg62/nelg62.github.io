@@ -5,14 +5,24 @@ import { Button } from "../ui/button";
 import { Github, Linkedin, Mail } from "lucide-react";
 ---
 
-<Card colSpan="md:col-span-3" rowSpan="md:row-span-4">
+<Card colSpan="md:col-span-3" rowSpan="md:row-span-4 lg:row-span-1">
   <div class="flex h-full w-full">
     <div class="flex flex-col justify-between gap-4 md:max-h-[300px]">
       <div class="flex h-full flex-col">
         <h6 class="m-0 text-sm font-light text-gray-500">Welcome</h6>
         <p>
           Hi, I'm
-          <b class="font-bold">{ME.fullName}</b>
+          <b class="font-bold">{ME.fullName}</b>, a software developer, I am
+          passionate about technology and I am always looking for new
+          challenges.
+        </p>
+        <br />
+        <p>
+          With 5+ years of experience in the tech industry, I have honed my
+          skills in troubleshooting issues and providing technical assistance to
+          end-users both onsite and remotely. I have completed an AUT-accredited
+          Certificate in Software Engineering, where I gained practical skills
+          in designing and implementing software solutions.
         </p>
       </div>
       <div>
@@ -36,12 +46,12 @@ import { Github, Linkedin, Mail } from "lucide-react";
         </a>
       </div>
     </div>
-    <img
+    <!-- <img
       width="300"
       height="300"
       src="/me.png"
       class="pointer-events-none absolute bottom-[-20px] right-[-110px] z-[-1] max-h-[300px] w-auto select-none opacity-50 md:relative md:bottom-auto md:right-auto md:z-auto md:opacity-100"
       alt=""
-    />
+    /> -->
   </div>
 </Card>

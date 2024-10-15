@@ -1,9 +1,12 @@
 ---
+import Card from "../components/Card.astro";
 import AboutMe from "../components/sections/AboutMe.astro";
 import CVCard from "../components/sections/CVCard.astro";
 import IntroCard from "../components/sections/IntroCard.astro";
 import Now from "../components/sections/Now.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeZoneCard from "../components/TimeZoneCard.astro";
+import ContactsCard from "../components/ContactsCard.astro";
 ---
 
 <!-- <script>
@@ -41,5 +44,13 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     <AboutMe />
     <CVCard />
     <Now />
+    <Card
+      colSpan="md:col-span-1"
+      rowSpan="md:row-span-1"
+      title="Portfolio & Projects"
+      href="/portfolio"
+    />
+    <TimeZoneCard />
+    <ContactsCard />
   </main>
 </BaseLayout>
