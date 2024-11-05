@@ -25,6 +25,13 @@ export const LINKS = {
 
 export const PROJECTS = [
   {
+    TITLE: "Ecommerse Website Nextjs Typescript",
+    DESCRIPTION: "Recreacting Capstone Project",
+    img: "/work-in-progress-1.webp",
+    website: "https://github.com/nelg62/EcommerseWebsiteNextjsTypescript",
+    repository: "https://github.com/nelg62/EcommerseWebsiteNextjsTypescript",
+  },
+  {
     TITLE: "Character Card Creator",
     DESCRIPTION: "Recreacting Miniproject 1",
     img: "/CharacterCardCreatorApp.png",
