@@ -56,8 +56,7 @@ export const PROJECTS = [
     TITLE: "Mini Project 2",
     DESCRIPTION: "",
     img: "/MiniProject2picture.png",
-    website:
-      "https://66b42a2f65f0a100084b9e3a--miniproject2glenharding.netlify.app/userstable",
+    website: "https://miniproject2glenharding.netlify.app/login",
     repository: "https://github.com/nelg62/MiniProject2",
     frountend: "Netlify",
     backend: "Render",
