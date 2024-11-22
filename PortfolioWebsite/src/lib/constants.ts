@@ -32,6 +32,14 @@ export const PROJECTS = [
     repository: "https://github.com/nelg62/EcommerseWebsiteNextjsTypescript",
   },
   {
+    TITLE: "Dice Bear Character Builder",
+    DESCRIPTION:
+      "Learning Typescript while building an app I plan to make it look nicer",
+    img: "/Characterappcreator.png",
+    website: "https://characterappglenharding.netlify.app/",
+    repository: "https://github.com/nelg62/charactorcreatorapp",
+  },
+  {
     TITLE: "Character Card Creator",
     DESCRIPTION: "Recreacting Miniproject 1",
     img: "/CharacterCardCreatorApp.png",
