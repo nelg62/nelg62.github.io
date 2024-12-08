@@ -94,7 +94,7 @@ export const EXPERIENCE = [
     position: "Level 1 & Level 2 Service Desk Engineer",
     start: "2023",
     link: "https://foundationpartners.co.nz/",
-    end: "Current",
+    end: "2024",
     tasks: [
       "Provide first and second level ICT support to customers at medium to large businesses - Predominantly via phone assistance - Occasional on-site visits as required",
       "Collaborate with other team members to deliver support services",
