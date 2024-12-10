@@ -1,0 +1,35 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BottomLayout from "../layouts/BottomLayout.astro";
+import TopLayout from "../layouts/TopLayout.astro";
+import BlogPost from "../components/BlogPost.astro";
+const allPosts = await Astro.glob("./posts/*.md");
+---
+
+<BaseLayout>
+  <main class="flex min-h-[80vh] flex-auto flex-col" transition:animate="slide">
+    <TopLayout
+      ><h2
+        class="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0"
+      >
+        My Blog
+      </h2></TopLayout
+    >
+    <BottomLayout>
+      <div class="flex w-full flex-wrap justify-center gap-2">
+        <ul>
+          {
+            allPosts.map((post) => (
+              <BlogPost
+                url={post.url}
+                title={post.frontmatter.title}
+                description={post.frontmatter.description}
+                image={post.frontmatter.image}
+              />
+            ))
+          }
+        </ul>
+      </div>
+    </BottomLayout>
+  </main>
+</BaseLayout>
