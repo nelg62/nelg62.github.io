@@ -1,25 +1,25 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: "Segment intersection Tutorial"
+title: "Christmas Calander Tutorial"
 pubDate: 11/12/2024
-description: "Following a tutoral for create Segment intersections part of self driving car"
+description: "Following a tutoral for creating a Christmas calander"
 author: "Radu Mariescu-Istodor"
 image:
-  url: "https://i.ytimg.com/vi/lok3RVBwSqE/maxresdefault.jpg"
-  alt: "Segment intersection Tutorial"
+  url: "https://i.ytimg.com/vi/4OkHHe0yJZE/maxresdefault.jpg"
+  alt: "Christmas Calander Tutorial"
 tags: ["Tutorial", "blogging", "Learning"]
 links:
   creatorYoutube: "https://www.youtube.com/watch?v=NkI9ia2cLhc&list=PLB0Tybl0UNfYoJE7ZwsBQoDIG4YN9ptyY"
   creatorGithub: "https://github.com/gniziemazity/Self-driving-car"
-  youtube: "https://www.youtube.com/watch?v=lok3RVBwSqE"
-myRepository: "https://github.com/nelg62/SelfDrivingCarTutorial"
+  youtube: "https://www.youtube.com/watch?v=4OkHHe0yJZE&list=PLB0Tybl0UNfalh9Ll82j6OKdx1QINOZom"
+myRepository: "https://github.com/nelg62/RaduTutorialChristmasCalander?tab=readme-ov-file"
 ---
 
 # My First Blog Post
 
 Published on: 11/12/2024
 
-This is a tutorial as part of the self driving car Tutorial by Radu Mariescu-Istodor explailing how to create a Neural network visualier using only javascript
+This is a tutorial by Radu Mariescu-Istodor explailing how to create a christmas calander using only javascript each day explaining new ways of creating reusable components and code
 
 <!-- ## What I've accomplished
 
