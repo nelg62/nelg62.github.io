@@ -1,22 +1,28 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: "My First Blog Post"
-pubDate: 2022-07-01
-description: "This is the first post of my new Astro blog."
-author: "Astro Learner"
+title: "Self-driving Car Tutorial"
+pubDate: 11/12/2024
+description: "Following a tutoral for create a self driving car"
+author: "Radu Mariescu-Istodor"
 image:
-  url: "https://docs.astro.build/assets/rose.webp"
-  alt: "The Astro logo on a dark background with a pink glow."
-tags: ["astro", "blogging", "learning in public"]
+  url: "https://i.ytimg.com/vi/Rs_rAxEsAvI/maxresdefault.jpg"
+  alt: "Self driving car tutorial"
+tags: ["Tutorial", "blogging", "Learning"]
+links:
+  creatorYoutube: "https://www.youtube.com/watch?v=NkI9ia2cLhc&list=PLB0Tybl0UNfYoJE7ZwsBQoDIG4YN9ptyY"
+  creatorGithub: "https://github.com/gniziemazity/Self-driving-car"
+  youtube: "https://www.youtube.com/watch?v=Rs_rAxEsAvI"
+
+myRepository: "https://github.com/nelg62/SelfDrivingCarTutorial"
 ---
 
 # My First Blog Post
 
-Published on: 2022-07-01
+Published on: 11/12/2024
 
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+This is a tutorial I have found on FreeCodeCamp by Radu Mariescu-Istodor explailing how to create a self driving car using only javascript
 
-## What I've accomplished
+<!-- ## What I've accomplished
 
 1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
 
@@ -26,4 +32,4 @@ Welcome to my _new blog_ about learning Astro! Here, I will share my learning jo
 
 ## What's next
 
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come. -->

@@ -8,8 +8,9 @@ const { frontmatter } = Astro.props;
   <p>{frontmatter.pubDate.toString().slice(0, 10)}</p>
 
   <p>Written by: {frontmatter.author}</p>
-
-  <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} />
+  <a href={frontmatter.links.youtube}>
+    <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} />
+  </a>
 
   <div class="tags">
     {
