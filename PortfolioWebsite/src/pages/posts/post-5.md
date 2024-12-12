@@ -1,17 +1,17 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: "Neural network visualier"
+title: "Self driving car 2 curved roads Tutorial"
 pubDate: 11/12/2024
-description: "Following a tutoral for create Neural network visualier part of self driving car"
+description: "Following a tutoral for create Self driving car 2 curved roads "
 author: "Radu Mariescu-Istodor"
 image:
-  url: "https://i.ytimg.com/vi/lok3RVBwSqE/maxresdefault.jpg"
-  alt: "Neural network visualier Tutorial"
+  url: "https://i.ytimg.com/vi/NUjN2Mln_Gg/maxresdefault.jpg"
+  alt: "Segment intersection Tutorial"
 tags: ["Tutorial", "blogging", "Learning"]
 links:
   creatorYoutube: "https://www.youtube.com/watch?v=NkI9ia2cLhc&list=PLB0Tybl0UNfYoJE7ZwsBQoDIG4YN9ptyY"
   creatorGithub: "https://github.com/gniziemazity/Self-driving-car"
-  youtube: "https://www.youtube.com/watch?v=lok3RVBwSqE"
+  youtube: "https://www.youtube.com/watch?v=NUjN2Mln_Gg&list=PLB0Tybl0UNfYoJE7ZwsBQoDIG4YN9ptyY&index=11"
 myRepository: "https://github.com/nelg62/SelfDrivingCarTutorial"
 ---
 
@@ -19,7 +19,7 @@ myRepository: "https://github.com/nelg62/SelfDrivingCarTutorial"
 
 Published on: 11/12/2024
 
-This is a tutorial as part of the self driving car Tutorial by Radu Mariescu-Istodor explailing how to create a Neural network visualier using only javascript
+This is a tutorial as Self driving car 2 curved roads Tutorial by Radu Mariescu-Istodor explailing how to create a Self driving car 2 curved roads using only javascript
 
 <!-- ## What I've accomplished
 
