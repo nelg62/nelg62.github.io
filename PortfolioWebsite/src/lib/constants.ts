@@ -27,8 +27,8 @@ export const PROJECTS = [
   {
     TITLE: "Ecommerse Website Nextjs Typescript",
     DESCRIPTION: "Recreacting Capstone Project",
-    img: "/work-in-progress-1.webp",
-    website: "https://github.com/nelg62/EcommerseWebsiteNextjsTypescript",
+    img: "/Ecommercewebsitetypescript.png",
+    website: "https://ecommersewebsitetypescript.netlify.app/",
     repository: "https://github.com/nelg62/EcommerseWebsiteNextjsTypescript",
   },
   {
