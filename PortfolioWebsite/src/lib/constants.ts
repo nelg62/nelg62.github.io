@@ -89,6 +89,19 @@ export const WORK: Page = {
 
 export const EXPERIENCE = [
   {
+    company: "Institute of Data",
+    location: "Remote (Australian Class time)",
+    position: "Teaching Assistant (Full time 2-week contract)",
+    start: "2025",
+    link: "https://www.institutedata.com/nz/",
+    end: "",
+    tasks: [
+      "Assisted students remotely during lab sessions, providing guidance and support.",
+      "Helped the teacher monitor student progress and address questions during labs.",
+      "Marked student attendance and assessed lab work for accuracy and completeness.",
+    ],
+  },
+  {
     company: "Foundation Partners Limited",
     location: "Auckland New Zealand",
     position: "Level 1 & Level 2 Service Desk Engineer",
