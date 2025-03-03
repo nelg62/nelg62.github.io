@@ -94,7 +94,7 @@ export const EXPERIENCE = [
     position: "Teaching Assistant (Full time 2-week contract)",
     start: "2025",
     link: "https://www.institutedata.com/nz/",
-    end: "",
+    end: "2025",
     tasks: [
       "Stepped in as a last-minute replacement for the original teaching assistant due to sickness, supporting lab sessions for seven days.",
       "Assisted students remotely during lab sessions, providing guidance and support.",
