@@ -96,6 +96,7 @@ export const EXPERIENCE = [
     link: "https://www.institutedata.com/nz/",
     end: "",
     tasks: [
+      "Stepped in as a last-minute replacement for the original teaching assistant due to sickness, supporting lab sessions for seven days.",
       "Assisted students remotely during lab sessions, providing guidance and support.",
       "Helped the teacher monitor student progress and address questions during labs.",
       "Marked student attendance and assessed lab work for accuracy and completeness.",
