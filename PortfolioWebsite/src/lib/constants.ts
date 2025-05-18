@@ -91,6 +91,21 @@ export const EXPERIENCE = [
   {
     company: "Institute of Data",
     location: "Remote (Australian Class time)",
+    position: "Teaching Assistant (Full Time 3 months)",
+    start: "2025",
+    link: "https://www.institutedata.com/nz/",
+    end: "2025",
+    tasks: [
+      "Provided one-on-one and group support to students during and after lessons.",
+      "Answered technical and conceptual questions to reinforce understanding of course material.",
+      "Guided students through lab exercises, helping troubleshoot coding issues in real time.",
+      "Assessed and marked lab work, offering constructive feedback to support learning and improvement.",
+      "Tracked student progress and collaborated with instructors to identify areas for additional support.",
+    ],
+  },
+  {
+    company: "Institute of Data",
+    location: "Remote (Australian Class time)",
     position: "Teaching Assistant (Full time 2-week contract)",
     start: "2025",
     link: "https://www.institutedata.com/nz/",
