@@ -25,6 +25,14 @@ export const LINKS = {
 
 export const PROJECTS = [
   {
+    TITLE: "Minesweeper Automation",
+    DESCRIPTION: "Automating minesweeper with javascript",
+    img: "/minesweeper-runtrimm (1).gif",
+    website: "https://github.com/nelg62/minesweeper-automation-with-puppeteer",
+    repository:
+      "https://github.com/nelg62/minesweeper-automation-with-puppeteer",
+  },
+  {
     TITLE: "Ecommerse Website Nextjs Typescript",
     DESCRIPTION: "Recreacting Capstone Project",
     img: "/Ecommercewebsitetypescript.png",
