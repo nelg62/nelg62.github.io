@@ -27,7 +27,7 @@ export const PROJECTS = [
   {
     TITLE: "Minesweeper Automation",
     DESCRIPTION: "Automating minesweeper with javascript",
-    img: "/minesweeper-runtrimm (1).gif",
+    img: "/Recording 2025-06-19 105117winninggame.gif",
     website: "https://github.com/nelg62/minesweeper-automation-with-puppeteer",
     repository:
       "https://github.com/nelg62/minesweeper-automation-with-puppeteer",
