@@ -25,6 +25,14 @@ export const LINKS = {
 
 export const PROJECTS = [
   {
+    TITLE: "RPG Test Game",
+    DESCRIPTION: "Making an RPG Game",
+    img: "/Shopanddungeon.gif",
+    website:
+      "https://686dcaa97192320008d60ab0--rpgtestgameglenharding.netlify.app/game",
+    repository: "https://github.com/nelg62/RPGTestgame",
+  },
+  {
     TITLE: "Minesweeper Automation",
     DESCRIPTION: "Automating minesweeper with javascript",
     img: "/Recording 2025-06-19 105117winninggame.gif",
