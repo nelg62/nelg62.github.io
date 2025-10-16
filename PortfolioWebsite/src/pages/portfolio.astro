@@ -6,11 +6,8 @@ import ProjectCard from "../components/ProjectCard.astro";
 import { PROJECTS } from "../lib/constants";
 ---
 
-<BaseLayout title="Portfolio" description=""
-  ><main
-    class="flex min-h-[80vh] flex-auto flex-col"
-    transition:animate="slide"
-  >
+<BaseLayout title="Portfolio" description="">
+  <main class="flex flex-col min-h-[80vh]">
     <TopLayout
       ><h2
         class="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0"
@@ -18,22 +15,26 @@ import { PROJECTS } from "../lib/constants";
         My Projects
       </h2></TopLayout
     >
-    <BottomLayout
-      ><div class="flex w-full flex-wrap justify-center gap-2">
+    <BottomLayout>
+      <div class="grid gap-4">
         {
           PROJECTS.map((entry, index) => (
-            <ProjectCard
-              key={index}
-              href={entry?.website}
-              heading={entry?.TITLE}
-              subheading={entry?.DESCRIPTION}
-              imagePath={entry?.img}
-              altText={entry?.TITLE}
-              class="w-full sm:w-2/5"
-            />
-            <div class="flex w-full flex-wrap justify-center gap-2">
-            <a target="_blank" href={entry?.repository}>Repository Link</a>
-          </div>
+            <>
+              <ProjectCard
+                key={index}
+                href={entry?.website}
+                heading={entry?.TITLE}
+                subheading={entry?.DESCRIPTION}
+                imagePath={entry?.img}
+                altText={entry?.TITLE}
+                class="w-full sm:w-2/5"
+                repository={entry.repository}
+                tech={entry?.tech}
+              />
+              <div class="flex w-full flex-wrap justify-center gap-2">
+                {/* <a target="_blank" href={entry?.repository}>Repository Link</a> */}
+              </div>
+            </>
           ))
         }
       </div></BottomLayout

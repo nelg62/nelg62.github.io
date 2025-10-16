@@ -30,6 +30,7 @@ export const PROJECTS = [
     img: "/Shopanddungeon2.gif",
     website: "https://rpgtestgameglenharding.netlify.app/game",
     repository: "https://github.com/nelg62/RPGTestgame",
+    tech: ["Next.js", "React", "Typescript", "Netlify", "Tailwind"],
   },
   {
     TITLE: "Minesweeper Automation",
@@ -38,6 +39,7 @@ export const PROJECTS = [
     website: "https://github.com/nelg62/minesweeper-automation-with-puppeteer",
     repository:
       "https://github.com/nelg62/minesweeper-automation-with-puppeteer",
+    tech: ["Javascript", "puppeteer"],
   },
   {
     TITLE: "Ecommerse Website Nextjs Typescript",
@@ -45,6 +47,16 @@ export const PROJECTS = [
     img: "/Ecommercewebsitetypescript.png",
     website: "https://ecommersewebsitetypescript.netlify.app/",
     repository: "https://github.com/nelg62/EcommerseWebsiteNextjsTypescript",
+    tech: [
+      "Next.js",
+      "Typescript",
+      "React",
+      "Tailwind",
+      "MySQL",
+      "prisma",
+      "Netlify",
+      "supabase",
+    ],
   },
   {
     TITLE: "Dice Bear Character Builder",
@@ -53,6 +65,7 @@ export const PROJECTS = [
     img: "/Characterappcreator.png",
     website: "https://characterappglenharding.netlify.app/",
     repository: "https://github.com/nelg62/charactorcreatorapp",
+    tech: ["dicebear", "Next.js", "React", "Typescript", "Tailwind", "Netlify"],
   },
   {
     TITLE: "Character Card Creator",
@@ -60,6 +73,7 @@ export const PROJECTS = [
     img: "/CharacterCardCreatorApp.png",
     website: "https://charactercardbuilderglenharding.netlify.app/",
     repository: "https://github.com/nelg62/CharacterFormwithtypescriptandreact",
+    tech: ["Next.js", "React", "Typescript", "Tailwind", "Netlify"],
   },
   {
     TITLE: "Capstone Project",
@@ -67,6 +81,18 @@ export const PROJECTS = [
     img: "/Capstonprojectproductpage.png",
     website: "https://capstopeprojectglenharding.netlify.app",
     repository: "https://github.com/nelg62/CapstoneProject",
+    tech: [
+      "Next.js",
+      "React",
+      "MUI",
+      "Netlify",
+      "Supabase",
+      "Express",
+      "Knex",
+      "MySQL",
+      "Sequelize",
+      "Render",
+    ],
   },
   {
     TITLE: "Mini Project 3",
@@ -74,6 +100,16 @@ export const PROJECTS = [
     img: "/MiniProject3mainpage.png",
     website: "https://master--miniproject3glenharding.netlify.app/",
     repository: "https://github.com/nelg62/MiniProject3",
+    tech: [
+      "React",
+      "MUI",
+      "Sequelize",
+      "Express",
+      "MySQL",
+      "Node.js",
+      "Netlify",
+      "Render",
+    ],
   },
   {
     TITLE: "Mini Project 2",
@@ -83,6 +119,15 @@ export const PROJECTS = [
     repository: "https://github.com/nelg62/MiniProject2",
     frountend: "Netlify",
     backend: "Render",
+    tech: [
+      "Next.js",
+      "React",
+      "MUI",
+      "Netlify",
+      "Express",
+      "Node.js",
+      "Render",
+    ],
   },
   {
     TITLE: "Mini Project 1",
@@ -93,6 +138,7 @@ export const PROJECTS = [
     repository:
       "https://github.com/nelg62/Remake-Miniproject1-with-react/tree/master",
     frountend: "Netlify",
+    tech: ["React", "Tailwind", "Netlify"],
   },
 ];
 
@@ -104,12 +150,48 @@ export const WORK: Page = {
 
 export const EXPERIENCE = [
   {
+    company: "Otago Polytechnic / Future Skills",
+    location: "On-Site Auckland New Zealand",
+    position: "Sessional Lecturer",
+    start: "Oct 2025",
+    link: "https://www.op.ac.nz/",
+    end: "",
+    tasks: [
+      "Delivered lectures and practical sessions for the Platforms and Devices course, covering computer hardware, operating systems, and networking.",
+      "Guided students through hands-on labs in PC assembly, BIOS setup, OS installation, and virtual machine configuration.",
+      "Taught Linux, PowerShell, and Bash fundamentals, focusing on file systems, scripting, and troubleshooting.",
+      "Provided one-on-one support and proactively attended extra sessions to develop teaching skills.",
+    ],
+  },
+  {
+    company: "Institute of Data",
+    location: "Remote (Australian Class time)",
+    position: "Tutor (Student Support) - Institute of Data",
+    start: "Oct 2025",
+    link: "https://www.institutedata.com/nz/",
+    end: "",
+    tasks: [
+      "I provide tutoring in Software Development for students at the Institute of Data. These sessions are available on request for anyone who needs extra support catching up on coursework or wants to deepen their understanding and explore topics in more detail.",
+    ],
+  },
+  {
+    company: "Future Skills",
+    location: "Remote",
+    position: "Industry Facilitator",
+    start: "July 2025",
+    link: "https://www.futureskills.co.nz/",
+    end: "",
+    tasks: [
+      "Provide one-on-one or small group support to students studying software development. Available for scheduled two-hour sessions on Saturdays, with additional hours as agreed. Responsibilities include guiding students through coding challenges, offering feedback on projects, and helping them understand course concepts.",
+    ],
+  },
+  {
     company: "Institute of Data",
     location: "Remote (Australian Class time)",
     position: "Teaching Assistant (Full Time 3 months)",
-    start: "2025",
+    start: "Apr 2025",
     link: "https://www.institutedata.com/nz/",
-    end: "2025",
+    end: "July 2025",
     tasks: [
       "Provided one-on-one and group support to students during and after lessons.",
       "Answered technical and conceptual questions to reinforce understanding of course material.",
@@ -122,9 +204,9 @@ export const EXPERIENCE = [
     company: "Institute of Data",
     location: "Remote (Australian Class time)",
     position: "Teaching Assistant (Full time 2-week contract)",
-    start: "2025",
+    start: "Feb 2025",
     link: "https://www.institutedata.com/nz/",
-    end: "2025",
+    end: "Feb 2025",
     tasks: [
       "Stepped in as a last-minute replacement for the original teaching assistant due to sickness, supporting lab sessions for seven days.",
       "Assisted students remotely during lab sessions, providing guidance and support.",
@@ -136,9 +218,9 @@ export const EXPERIENCE = [
     company: "Foundation Partners Limited",
     location: "Auckland New Zealand",
     position: "Level 1 & Level 2 Service Desk Engineer",
-    start: "2023",
+    start: "May 2023",
     link: "https://foundationpartners.co.nz/",
-    end: "2024",
+    end: "Dec 2024",
     tasks: [
       "Provide first and second level ICT support to customers at medium to large businesses - Predominantly via phone assistance - Occasional on-site visits as required",
       "Collaborate with other team members to deliver support services",
@@ -153,8 +235,8 @@ export const EXPERIENCE = [
     location: "Pokeno New Zealand",
     position: "ICT Support Technician",
     link: "https://fusiontech.nz/",
-    start: "2019",
-    end: "2023",
+    start: "June 2019",
+    end: "May 2023",
     tasks: [
       "Troubleshoot IT issues for small to medium-sized businesses, including server management.",
       "Set up mobile phones, laptops, and other devices.",
@@ -172,8 +254,8 @@ export const EXPERIENCE = [
     link: "https://www.darkwing.co.nz/",
     location: "Auckland New Zealand",
     position: "ICT Support Technician",
-    start: "2018",
-    end: "2019",
+    start: "June 2018",
+    end: "June 2019",
     tasks: [
       "Provide on-site IT support for small to medium-sized businesses and individual clients.",
       "Troubleshoot IT-related issues for both Mac and iPhone-based devices.",

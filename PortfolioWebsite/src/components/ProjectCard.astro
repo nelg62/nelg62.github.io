@@ -1,4 +1,6 @@
 ---
+import { Github } from "lucide-react";
+import { Button } from "./ui/button";
 import { Card as ShadcnCard } from "./ui/card";
 
 interface Props {
@@ -9,6 +11,8 @@ interface Props {
   subheading: string;
   imagePath: string;
   altText: string;
+  repository: string;
+  tech: string[];
 }
 
 const {
@@ -19,24 +23,59 @@ const {
   subheading,
   imagePath,
   altText,
+  repository,
+  tech,
 } = Astro.props;
 ---
 
-<Tag target="_blank" href={href} class={`${className}`}
-  ><ShadcnCard
-    className={`transfor-y-[-40%] align-start perspective-1200 group relative flex-none transform justify-start overflow-hidden shadow-lg transition duration-75 ease-in-out ${href ? "cursor-pointer hover:border-primary" : ""}`}
-    ><img
-      src={imagePath}
-      alt={altText}
-      class="h-48 w-full rounded-bl-none rounded-br-none object-contain"
-      loading="eager"
-    /><div class="flex flex-col gap-y-0.5 px-5 py-4">
-      <h1 class="text-lg font-medium">{heading}</h1><h2
-        class="text-muted-foreground"
-      >
-        {subheading}
-      </h2>
+<Tag target="_blank" href={href} class={`${className}`}>
+  <div
+    class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition hover:scale-[1.02] duration-200"
+  >
+    <img src={imagePath} alt={altText} class="w-full h-48 object-cover" />
+
+    <div class="p-4">
+      <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
+        {heading}
+      </h3>
+      <p class="text-gray-600 dark:text-gray-300 mb-3">{subheading}</p>
+
+      <div class="flex flex-wrap gap-2 mb-3">
+        {
+          tech?.map((t) => (
+            <span class="text-xs bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded">
+              {t}
+            </span>
+          ))
+        }
+      </div>
+
+      <div class="flex gap-4">
+        {
+          href && (
+            <a
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-600 hover:underline text-sm"
+            >
+              Live Demo
+            </a>
+          )
+        }
+        {
+          repository && (
+            <a
+              href={repository}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-gray-600 hover:underline text-sm"
+            >
+              Github
+            </a>
+          )
+        }
+      </div>
     </div>
-    <slot /></ShadcnCard
-  ></Tag
->
+  </div>
+</Tag>
