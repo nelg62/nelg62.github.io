@@ -55,7 +55,7 @@ export const PROJECTS = [
       "MySQL",
       "prisma",
       "Netlify",
-      "supabase",
+      "Supabase",
     ],
   },
   {
@@ -65,7 +65,7 @@ export const PROJECTS = [
     img: "/Characterappcreator.png",
     website: "https://characterappglenharding.netlify.app/",
     repository: "https://github.com/nelg62/charactorcreatorapp",
-    tech: ["dicebear", "Next.js", "React", "Typescript", "Tailwind", "Netlify"],
+    tech: ["Next.js", "React", "Typescript", "Tailwind", "Netlify"],
   },
   {
     TITLE: "Character Card Creator",

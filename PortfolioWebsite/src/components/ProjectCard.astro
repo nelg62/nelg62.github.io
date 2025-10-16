@@ -2,6 +2,23 @@
 import { Github } from "lucide-react";
 import { Button } from "./ui/button";
 import { Card as ShadcnCard } from "./ui/card";
+import {
+  SiReact,
+  SiTypescript,
+  SiNetlify,
+  SiJavascript,
+  SiPuppeteer,
+  SiMysql,
+  SiPrisma,
+  SiSupabase,
+  SiMui,
+  SiExpress,
+  SiKnexdotjs,
+  SiSequelize,
+  SiRender,
+  SiNodedotjs,
+} from "react-icons/si";
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 
 interface Props {
   as?: string;
@@ -26,6 +43,44 @@ const {
   repository,
   tech,
 } = Astro.props;
+
+const techMap = {
+  React: SiReact,
+  "Next.js": RiNextjsFill,
+  Typescript: SiTypescript,
+  Netlify: SiNetlify,
+  Tailwind: RiTailwindCssFill,
+  Javascript: SiJavascript,
+  puppeteer: SiPuppeteer,
+  MySQL: SiMysql,
+  prisma: SiPrisma,
+  Supabase: SiSupabase,
+  MUI: SiMui,
+  Express: SiExpress,
+  Knex: SiKnexdotjs,
+  Sequelize: SiSequelize,
+  Render: SiRender,
+  "Node.js": SiNodedotjs,
+};
+
+const techColorMap = {
+  React: "#61DAFB",
+  "Next.js": "#000000",
+  Typescript: "#3178C6",
+  Netlify: "#00C7B7",
+  Tailwind: "#38BDF8",
+  Javascript: "#F7DF1E",
+  Puppeteer: "#FF622D",
+  MySQL: "#4479A1",
+  Prisma: "#0C344B",
+  Supabase: "#3ECF8E",
+  MUI: "#007FFF",
+  Express: "#000000",
+  Knex: "#4F7CF3",
+  Sequelize: "#52B0E7",
+  Render: "#212121",
+  "Node.js": "#339933",
+};
 ---
 
 <Tag target="_blank" href={href} class={`${className}`}>
@@ -40,13 +95,26 @@ const {
       </h3>
       <p class="text-gray-600 dark:text-gray-300 mb-3">{subheading}</p>
 
-      <div class="flex flex-wrap gap-2 mb-3">
+      <div class="flex flex-wrap gap-2 mb-3 justify-start items-center">
         {
-          tech?.map((t) => (
-            <span class="text-xs bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded">
-              {t}
-            </span>
-          ))
+          tech?.map((t) => {
+            const Icon = techMap[t];
+            return (
+              <div class="relative group w-12 h-12 flex flex-col items-center">
+                {/* Circle with Icon */}
+                <div class="h-12 w-12 rounded-full flex items-center justify-center bg-zinc-200 dark:bg-zinc-700 border border-zinc-400 transition-colors duration-300 group-hover:bg-[#ff3e00]/20">
+                  {Icon && (
+                    <Icon size={28} color={techColorMap[t] || "currentColor"} />
+                  )}
+                </div>
+
+                {/* Tooltip */}
+                <span class="absolute -bottom-4 text-xs text-gray-700 dark:text-gray-300 opacity-0 group-hover:opacity-100 transition-opacity">
+                  {t}
+                </span>
+              </div>
+            );
+          })
         }
       </div>
 
