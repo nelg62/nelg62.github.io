@@ -23,6 +23,20 @@ export const LINKS = {
   // discord: "",
 };
 
+export const SKILLS = {
+  IT: [
+
+  ],
+  developer: [
+    "Javascript","Typescript","React","Node.js","Express","MySQL","Next.js","GitHub","Tailwind","MUI","Shadcn","Knex","Sequelize","Puppeteer","Supabase","Netlify","prisma","Render","Aiven","HTML","CSS","Bootstrap","Figma",
+  ],
+  other: []
+}
+
+export const HOBBIES = {
+
+}
+
 export const PROJECTS = [
   {
     TITLE: "RPG Test Game",
