@@ -24,18 +24,36 @@ export const LINKS = {
 };
 
 export const SKILLS = {
-  IT: [
-
-  ],
+  IT: [],
   developer: [
-    "Javascript","Typescript","React","Node.js","Express","MySQL","Next.js","GitHub","Tailwind","MUI","Shadcn","Knex","Sequelize","Puppeteer","Supabase","Netlify","prisma","Render","Aiven","HTML","CSS","Bootstrap","Figma",
+    "Javascript",
+    "Typescript",
+    "React",
+    "Node.js",
+    "Express",
+    "MySQL",
+    "Next.js",
+    "GitHub",
+    "Tailwind",
+    "MUI",
+    "Shadcn",
+    "Knex",
+    "Sequelize",
+    "Puppeteer",
+    "Supabase",
+    "Netlify",
+    "prisma",
+    "Render",
+    "Aiven",
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "Figma",
   ],
-  other: []
-}
+  other: [],
+};
 
-export const HOBBIES = {
-
-}
+export const HOBBIES = {};
 
 export const PROJECTS = [
   {
@@ -163,6 +181,22 @@ export const WORK: Page = {
 };
 
 export const EXPERIENCE = [
+  {
+    company: "St Peters College",
+    location: "On-Site Auckland New Zealand",
+    position: "NCEA Exam Supervisor",
+    start: "Nov 2025",
+    link: "https://www.st-peters.school.nz/",
+    end: "",
+    tasks: [
+      "Supervise and monitor senior student examinations to ensure a fair, safe, and distraction-free environment.",
+      "Follow all exam procedures and policies, including attendance checks, timekeeping, and incident reporting.",
+      "Set up exam rooms, distribute and collect exam materials, and maintain secure handling of papers.",
+      "Provide clear instructions to students and support them with any procedural questions.",
+      "Maintain professionalism, confidentiality, and high attention to detail throughout each 3-hour exam session.",
+    ],
+  },
+
   {
     company: "Otago Polytechnic / Future Skills",
     location: "On-Site Auckland New Zealand",
