@@ -20,7 +20,7 @@ jobs:
         uses: withastro/action@v2
         with:
           path: ./PortfolioWebsite # Specify the correct path to your Astro project
-          package-manager: pnpm@latest
+          package-manager: pnpm@8.15.5
 
   deploy:
     needs: build
