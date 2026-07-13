@@ -15,7 +15,7 @@
     "@contentful/rich-text-html-renderer": "^16.3.5",
     "@radix-ui/react-dropdown-menu": "^2.0.6",
     "@radix-ui/react-slot": "^1.0.2",
-    "astro": "^4.5.9",
+    "astro": "^7.0.7",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "contentful": "^10.8.6",
