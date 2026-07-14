@@ -241,7 +241,7 @@ export const EXPERIENCE = [
     position: "NCEA Exam Supervisor",
     start: "Nov 2025",
     link: "https://www.st-peters.school.nz/",
-    end: "",
+    end: "Nov 2025",
     tasks: [
       "Supervise and monitor senior student examinations to ensure a fair, safe, and distraction-free environment.",
       "Follow all exam procedures and policies, including attendance checks, timekeeping, and incident reporting.",
@@ -257,7 +257,7 @@ export const EXPERIENCE = [
     position: "Sessional Lecturer",
     start: "Oct 2025",
     link: "https://www.op.ac.nz/",
-    end: "",
+    end: "Dec 2025",
     tasks: [
       "Delivered lectures and practical sessions for the Platforms and Devices course, covering computer hardware, operating systems, and networking.",
       "Guided students through hands-on labs in PC assembly, BIOS setup, OS installation, and virtual machine configuration.",
@@ -271,7 +271,7 @@ export const EXPERIENCE = [
     position: "Tutor (Student Support) - Institute of Data",
     start: "Oct 2025",
     link: "https://www.institutedata.com/nz/",
-    end: "",
+    end: "Oct 2025",
     tasks: [
       "I provide tutoring in Software Development for students at the Institute of Data. These sessions are available on request for anyone who needs extra support catching up on coursework or wants to deepen their understanding and explore topics in more detail.",
     ],
@@ -282,7 +282,7 @@ export const EXPERIENCE = [
     position: "Industry Facilitator",
     start: "July 2025",
     link: "https://www.futureskills.co.nz/",
-    end: "",
+    end: "Nov 2025",
     tasks: [
       "Provide one-on-one or small group support to students studying software development. Available for scheduled two-hour sessions on Saturdays, with additional hours as agreed. Responsibilities include guiding students through coding challenges, offering feedback on projects, and helping them understand course concepts.",
     ],
